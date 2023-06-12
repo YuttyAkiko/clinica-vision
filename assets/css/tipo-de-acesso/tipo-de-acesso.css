@@ -1,0 +1,68 @@
+h1 {
+    align-items: center;
+    background-color: var(--azul-claro);
+    border-radius: 0 100px 100px 0;
+    color: var(--azul-escuro-light);
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    height: 150px;
+    margin-top: 2rem;
+    padding-right: 3rem;
+    text-transform: uppercase;
+    width: 60%;
+}
+
+h2 {
+    color: var(--azul-escuro-light);
+    font-weight: 700;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+img {
+    height: 200px;
+    margin: 3rem 0 0 0;
+    width: 200px;
+}
+
+.container__acesso {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+}
+
+.acesso {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    text-decoration: none;
+}
+
+.acesso img:hover {
+    transform: scale(0.9);
+}
+
+.acesso__adm {
+    grid-column: 1 / 1;
+}
+
+.acesso__paciente {
+    background: rgba(162, 211, 225, 0.5);
+    grid-column: 2 / 2;
+}
+
+.acesso__funcionario {
+    grid-column: 3 / 3;
+}
+
+.acesso__medico {
+    grid-column: 4 / 4;
+}
+
+@media screen and (max-width: 768px) {
+    .container__acesso {
+        grid-template-columns: 50% 50%;
+    }
+}

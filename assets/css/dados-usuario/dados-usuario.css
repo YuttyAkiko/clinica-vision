@@ -1,0 +1,68 @@
+main {
+    font-family: var(--texto);
+}
+
+.title {
+    align-items: center;
+    background-color: var(--azul-claro);
+    border-radius: 0 200px 200px 0;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    margin: 2rem 0;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.title > h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 3rem;
+}
+
+.title > img {
+    height: 190px;
+    width: 190px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+form>.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+form>div input {
+    background-color: var(--azul-claro);
+    border: none;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#done,
+#change {
+    background-color: var(--verde);
+    border: none;
+    border-radius: 20px;
+    color: var(--branco);
+    font-weight: 700;
+    margin: 2rem;
+    padding: 1rem;
+    text-shadow: 1px 1px 5px var(--preto);
+    width: 20%;
+}
