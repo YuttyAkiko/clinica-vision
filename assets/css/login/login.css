@@ -7,7 +7,7 @@ main {
 /* Aqui começa onde fica os elementos a esquerda */
 
 .bem-vindo__container {
-    background-image: url(/assets/img/fundos/bg-criar-conta.svg);
+    background-image: url(/clinica-vision/assets/img/fundos/bg-criar-conta.svg);
     background-size: cover;
     display: flex;
     justify-content: center;

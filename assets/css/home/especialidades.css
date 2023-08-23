@@ -1,7 +1,7 @@
 .especialidades__container {
   /*Tudo que envolve a parte de especialidades*/
   align-items: center;
-  background-image: url(/assets/img/fundos/bg-especialidades.svg);
+  background-image: url(/clinica-vision/assets/img/fundos/bg-especialidades.svg);
   background-position: center;
   background-size: cover;
   background-position-x: left;

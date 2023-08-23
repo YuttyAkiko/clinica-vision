@@ -1,13 +1,19 @@
 main {
     font-family: var(--texto);
-    background-image: url(/assets/img/fundos/bg-especialidades.svg);
+    background-image: url(/clinica-vision/assets/img/fundos/bg-especialidades.svg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .content {
     display: flex;
     flex-wrap: wrap;
+    height: 80%;
+    width: 80%;
 }
 
 .box {
